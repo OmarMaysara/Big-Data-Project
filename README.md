@@ -42,9 +42,6 @@ kitti-road-object-detection/
 │   ├── yolov10m_50ep/                      # Epoch ablation: 50 vs 100
 │   ├── yolov11m/
 │   ├── yolov11m_TL/                        # Transfer learning experiment
-│   ├── yolov11s/
-│   ├── yolov11n/
-│   └── yolov26n/
 │
 ├── presentation.pdf                  # Full project presentation (Phase III)
 │
@@ -146,9 +143,6 @@ All models trained under identical settings:
 | YOLOv9m | 20,016,607 | 76.5 | 0.958 | 0.905 | 0.955 | 0.792 |
 | YOLOv10m | 16,456,174 | 63.4 | 0.954 | 0.901 | 0.955 | 0.785 |
 | YOLOv11m | 20,033,887 | 67.7 | 0.959 | 0.906 | 0.958 | **0.799** |
-| YOLOv11s | 9,400,000 | 21.5 | 0.916 | 0.854 | 0.916 | 0.682 |
-| YOLOv11n | 2,600,000 | 6.5 | 0.845 | 0.667 | 0.776 | 0.529 |
-| YOLOv26n | 2,400,000 | 5.4 | 0.883 | 0.768 | 0.883 | 0.647 |
 
 **Winner: YOLOv11m** — highest mAP@50-95 (0.799) and precision (0.959) among medium models at a competitive 67.7 GFLOPs.
 
