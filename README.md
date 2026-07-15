@@ -234,7 +234,7 @@ python benchmarking/model_parameters.py
 
 Habiba Ashraf · Karim Emad · Kamal Mohamed · Omar Maysara
 
-*AASTMT — Big Data Project, Phase III*
+*AASTMT — Big Data Project*
 
 ---
 
