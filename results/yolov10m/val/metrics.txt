@@ -1,0 +1,57 @@
+{
+    "model": "D:\\Road\\RoadObjectDetectionProject\\runs\\detect\\train16\\weights\\best.pt",
+    "saved_plots_dir": "D:\\Road\\RoadObjectDetectionProject\\runs\\detect\\val10",
+    "predictions_json": "D:\\Road\\RoadObjectDetectionProject\\runs\\detect\\val10\\predictions.json",
+    "metrics_global": {
+        "precision": 0.9536005022650352,
+        "recall": 0.9013319213635599,
+        "f1_score": 0.925685938562433,
+        "mAP_0.5": 0.9545114350153157,
+        "mAP_0.5_0.95": 0.7854275276164742
+    },
+    "metrics_per_class": {
+        "class_names": {
+            "0": "Car",
+            "1": "Pedestrian",
+            "2": "Cyclist",
+            "3": "Van",
+            "4": "Truck"
+        },
+        "precision": [
+            0.957040576882853,
+            0.9344700070214719,
+            0.9436684303476834,
+            0.9510211873910365,
+            0.981802309682131
+        ],
+        "recall": [
+            0.94325885984944,
+            0.7863247863247863,
+            0.8566444874021881,
+            0.9708516413086117,
+            0.9495798319327731
+        ],
+        "f1_score": [
+            0.950099743156788,
+            0.8540203996889066,
+            0.898053167116288,
+            0.9608341060969823,
+            0.9654222767532004
+        ],
+        "ap50": [
+            0.9809382260189162,
+            0.8880786839383976,
+            0.9330470870415243,
+            0.9858012933458822,
+            0.9846918847318573
+        ],
+        "ap": [
+            0.8742592528074266,
+            0.5789397885060932,
+            0.722146294908812,
+            0.872885105965721,
+            0.8789071958943181
+        ]
+    },
+    "confusion_matrix": "<ultralytics.utils.metrics.ConfusionMatrix object at 0x000001C4CF1E4EE0>"
+}

@@ -1,0 +1,10 @@
+train: E:/Road Object Detection Project/organized/images/train
+val: E:/Road Object Detection Project/organized/images/val
+test: E:/Road Object Detection Project/organized/images/test
+
+names:
+  0: Car
+  1: Pedestrian
+  2: Cyclist
+  3: Van
+  4: Truck
