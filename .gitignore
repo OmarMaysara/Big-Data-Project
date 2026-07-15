@@ -1,0 +1,44 @@
+# Dataset and data lake (too large for Git)
+data_lake/
+raw/
+clean/
+organized/
+
+# YOLO training runs
+runs/
+
+# Model weights
+*.pt
+*.onnx
+
+# Parquet files
+*.parquet
+*.snappy.parquet
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Environments
+.env
+.venv
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
